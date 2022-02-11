@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textw"
+                android:text="@string/welcome"
+                android:textAppearance="@android:style/TextAppearance.Material.Display1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sh"
+                android:id="@+id/saber"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/elegir"
+                android:id="@+id/texte"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+            <Button
+                android:id="@+id/bpast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/botonp"
+                />
+
+            <Button
+                android:id="@+id/bpreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulofuture"
+                />
+
+            <Button
+                android:id="@+id/bpres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulopresent"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.wear.widget.BoxInsetLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".present"
+    tools:deviceIds="wear">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vistatitulopr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulopresent"
+                android:textAppearance="@android:style/TextAppearance.Material.Display1" />
+
+            <TextView
+                android:id="@+id/vistatemapr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/temapresent"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:id="@+id/vistausopr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/usepresent"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/vistapreguntapr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/questionpresent"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+            <RadioGroup
+                android:id="@+id/gruporespr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respr"
+                    />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respr2"
+                    />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/respr3"
+                    />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/bpresent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/confirmar"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.wear.widget.BoxInsetLayout>

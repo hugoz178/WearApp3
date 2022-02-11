@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">WearApp3</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+    <string name="welcome">¡Welcome!</string>
+    <string name="sh">Saber Hacer</string>
+    <string name="elegir">Choose a theme to practice it</string>
+    <string name="botonp">Past</string>
+    <string name="atras">Regresar</string>
+    <string name="future">Future</string>
+    <string name="present">Present</string>
+    <string name="preg">Preguntas</string>
+    <string name="title_activity_question">question</string>
+
+
+    <string name="confirmar">Confirmar</string>
+
+    <string name="pregunta">Pregunta 1</string>
+    <array name="respuestas">
+        <item>Is used for indicate that a longer action in the future will be interrupted by a shorter action in the future</item>
+        <item>To talk about something that finishes just before another time or action</item>
+        <item>We use for actions that will be completed before some other point in the future</item>
+    </array>
+    <integer name="correct_resp">2</integer>
+    <string name="title_activity_past">past</string>
+    <string name="title_activity_present">present</string>
+
+    <string name="titulopresent">Present</string>
+    <string name="temapresent">Present Continuous</string>
+    <string name="usepresent">Present Continuous is used when an action happened, or may happen</string>
+    <string name="questionpresent">When we use Present Continuous?</string>
+
+    <array name="answerspresent">
+        <item>When an action is happening right now</item>
+        <item>When an action happened, or may happen</item>
+        <item>When an action carried out during a period of time not yet concluded</item>
+    </array>
+    <integer name="correctpresent">1</integer>
+
+
+    <string name="titulopast">Past</string>
+    <string name="temapast">Past Perfect</string>
+    <string name="usepast">The past perfect is used for actions or events that happened in the past before another action or event in the past</string>
+    <string name="questionpast">When we use Past Perfect?</string>
+
+    <array name="answerspast">
+        <item>When an actions or events that happened in the past before another action or event in the past</item>
+        <item>Is used for the action in process and the past simple for the action that interrupted the action</item>
+        <item>Is used to talk about actions or situations in the past</item>
+    </array>
+    <integer name="correctpast">0</integer>
+
+
+    <string name="titulofuture">Future</string>
+    <string name="temafuture">Future Perfect</string>
+    <string name="usefuture">The future perfect is a verb tense used for actions that will be completed before some other point in the future</string>
+    <string name="questionfuture">When we use Future Perfect?</string>
+
+    <array name="answersfuture">
+        <item>Is used for indicate that a longer action in the future will be interrupted by a shorter action in the future</item>
+        <item>To talk about something that finishes just before another time or action</item>
+        <item>We use for actions that will be completed before some other point in the future</item>
+    </array>
+    <integer name="correctfuture">2</integer>
+
+
+</resources>
